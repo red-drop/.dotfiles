@@ -3,6 +3,7 @@
   #email=
 [alias]
   st=status
+  a=add
   aa=add .
   ap=add -p
   unstage=reset
