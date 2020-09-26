@@ -1,0 +1,23 @@
+[user]
+  #name=
+  #email=
+[alias]
+  st=status
+  aa=add .
+  ap=add -p
+  unstage=reset
+  p=pull
+  cp=cherry-pick
+  co=checkout
+  cob=checkout -b
+  b=branch
+  bd=branch -d
+  cb=branch --show-current
+  com=commit -m 
+  amend=commit --amend
+  pcb=!git push origin `git branch --show-current`
+  difc=diff --cached
+
+  # simple log with graph, relative date
+  slg=log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold yellow)― %an%C(reset)%C(bold red)%d%C(reset)' --abbrev-commit --date=relative
+  lg=log --graph --all --decorate
