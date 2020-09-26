@@ -13,7 +13,7 @@
   b=branch
   bd=branch -d
   cb=branch --show-current
-  com=commit -m 
+  cmm=commit -m 
   amend=commit --amend
   pcb=!git push origin `git branch --show-current`
   difc=diff --cached
