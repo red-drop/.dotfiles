@@ -1,0 +1,11 @@
+set laststatus=2
+set ruler
+set wildmenu
+set nu
+set title
+set encoding=utf-8
+set history=100
+set mouse=a
+set t_Co=256
+set background=dark
+
