@@ -17,6 +17,8 @@ $ vim .vimrc # Execute :PlugInstall on command mode
 
 $ ln -s .dotfiles/.gitconfig .gitconfig
 $ vim .gitconfig # Fill user attributes
+
+$ echo 'source ~/.dotfiles/.aliases' >> ~/.zshrc
 ```
 
 # Packages
