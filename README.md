@@ -33,5 +33,5 @@ $ git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anye
 $ anyenv update
 
 $ anyenv install -l
-$ anyenv install rbenv
+$ anyenv install [rbenv nodenv jenv goenv]
 ```
