@@ -17,6 +17,7 @@
   cmm=commit -m 
   amend=commit --amend
   pcb=!git push origin `git branch --show-current`
+  fpcb=!git push -f origin `git branch --show-current`
   difc=diff --cached
 
   # simple log with graph, relative date
