@@ -1,6 +1,8 @@
-alias g='git '
-alias bi='bundle exec install'
-alias sjekyll='bundle exec jekyll serve --watch'
-alias gohome='cd ~'
-alias zconfig='vim ~/.zshrc'
 alias ll='ls -al'
+alias zconfig='vim ~/.zshrc'
+alias gohome='cd ~'
+
+alias g='git '
+alias sjekyll='bundle exec jekyll serve --watch'
+
+alias bi='bundle exec install'
