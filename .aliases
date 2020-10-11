@@ -5,4 +5,5 @@ alias gohome='cd ~'
 alias g='git '
 alias sjekyll='bundle exec jekyll serve --watch'
 
+alias d='docker '
 alias bi='bundle exec install'
